@@ -10,11 +10,10 @@
     "url": "numetriclabs.com"
   },
   "engines": {
-    "node": ">=0.10"
+    "node": ">=4"
   },
   "scripts": {
-    "test": "nyc ava",
-    "lint": "xo"
+    "test": "xo && nyc ava"
   },
   "files": [
     "index.js"
