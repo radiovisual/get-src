@@ -1,7 +1,7 @@
 'use strict';
 module.exports = function (input) {
 	if (typeof input !== 'string') {
-		throw new TypeError(`Expected a string, got ${typeof input}`);
+		throw new TypeError('get-src expected a string');
 	}
 	var re = /src="(.*?)"/gm;
 	var url = re.exec(input);

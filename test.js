@@ -5,7 +5,7 @@ test('expects a string', t => {
 	t.throws(() => {
 		fn();
 	},
-	'Expected a string, got undefined');
+	'get-src expected a string');
 });
 
 test('extracts the src from iframe strings', t => {
