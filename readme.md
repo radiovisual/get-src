@@ -1,6 +1,6 @@
 # get-src [![Build Status](https://travis-ci.org/radiovisual/get-src.svg?branch=master)](https://travis-ci.org/radiovisual/get-src) [![Coverage Status](https://coveralls.io/repos/github/radiovisual/get-src/badge.svg?branch=master)](https://coveralls.io/github/radiovisual/get-src?branch=master)
 
-> Get the &#39;src&#39; value from any string containing a &#39;src=&#34;&#34;&#39; (embed, iframe, html, etc).
+> Get the &#39;src&#39; value from any string containing a src=&#34;&#34; (embed, iframe, html, etc).
 
 
 ## Install
