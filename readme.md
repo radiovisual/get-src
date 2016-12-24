@@ -19,7 +19,7 @@ getSrc('<image src="image.png" />');
 //=> 'image.png'
 
 getSrc('<iframe width="400" height="300" src="video.mp4"></iframe>');
-//=> 'image.png'
+//=> 'video.mp4'
 ```
 
 
