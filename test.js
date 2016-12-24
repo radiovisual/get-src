@@ -31,3 +31,7 @@ test('extracts the source from html strings', t => {
 test('returns undefined when no src= is found', t => {
 	t.is(fn('hello'), undefined);
 });
+
+test('single quotes return undefined', t => {
+	t.is(fn(` src='noop' `), undefined);
+});

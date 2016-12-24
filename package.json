@@ -1,7 +1,7 @@
 {
   "name": "get-src",
   "version": "0.1.0",
-  "description": "Get the &#39;src&#39; value from any string containing a &#39;src=&#34;&#34;&#39; (embed, iframe, html, etc).",
+  "description": "Get the &#39;src&#39; value from any string containing a src=&#34;&#34; (embed, iframe, html, etc).",
   "license": "MIT",
   "repository": "radiovisual/get-src",
   "author": {
